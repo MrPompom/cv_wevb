@@ -1,0 +1,125 @@
+/* If you're feeling fancy you can add interactivity 
+    to your site with Javascript */
+    
+    li {
+        list-style:none !important;
+        color:#FFF;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+        }
+         
+        nav ul {
+        background-color: black;
+        padding:0;
+        margin:0;
+        }
+         
+        nav ul li {
+        list-style: none;
+        line-height:44px;
+        float:left;
+        background-color:black;
+        }
+         
+        nav ul li a {
+        color:#FFF;
+        padding:10px;
+        font-size:20px;
+        text-decoration:none;
+        }
+         
+        li a:hover {
+        border-bottom:3px #FFF solid;
+        }
+        nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+         
+        nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+        z-index:99999;
+        display:list-item !important;
+        position:absolute;
+        margin-top:5px;
+        margin-left:-10px;
+        }
+         
+        nav ul li:hover ul li {
+        float:none;
+        }
+      
+      
+    
+    h1, h2, h3 {
+      color: whitesmoke;
+      font-weight: bold;
+      
+    }
+    .header
+    {
+      background-color: black;
+      border-style: dotted;
+    }
+
+    .header img
+    {
+        width: 100px;
+        align-self: center;
+    }
+    
+    .main
+    {
+      background-color: blue;
+      margin: auto;
+    }
+
+    .menu
+    {
+        display: block;
+        float:left;
+        width:400px;
+        height: 800px;
+        background-color:#FF3366;
+    }
+
+    .main-content
+    {
+        margin-left:45px;
+        width: auto;
+        height: 800px;
+        background-color:#9966FF;
+    }
+
+    .main-content img
+    {
+        width: 100px;
+    }
+
+    .footer
+    {
+      Background-color: green;
+    }
+
+    .link
+    {
+        display: inline;
+    }
+    .footer img
+    {
+        width: 50px;
+    }
+
+    .footer .link 
+    {
+      display: inline;
+    }
+
+    label, input, textarea {
+        display: block;
+      }
+
+      input[type=submit] {
+        width: 120px;
+        font-size: 15px;
+        background-color: darkred;
+        color: white;
+        border-radius: 50px;
+      } 
