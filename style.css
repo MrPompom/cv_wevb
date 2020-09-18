@@ -1,13 +1,17 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
     
+    body {
+      margin : 0px;
+    }
+
     li {
         list-style:none !important;
         color:#FFF;
-        padding:10px;
+        padding: 10px;
         font-size:20px;
         text-decoration:none;
-        }
+      }
          
         nav ul {
         background-color: black;
@@ -37,15 +41,21 @@
         nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
         z-index:99999;
         display:list-item !important;
-        position:absolute;
+        position: relative;
         margin-top:5px;
         margin-left:-10px;
         }
          
         nav ul li:hover ul li {
-        float:none;
+        float: none;
         }
-      
+
+
+      nav {
+        position :absolute;
+        top: 10px;
+        left : 0px;
+      }
       
     
     h1, h2, h3 {
@@ -57,6 +67,7 @@
     {
       background-color: black;
       border-style: dotted;
+      padding: 40px;
     }
 
     .header img
@@ -68,23 +79,13 @@
     .main
     {
       background-color: blue;
-      margin: auto;
-    }
-
-    .menu
-    {
-        display: block;
-        float:left;
-        width:400px;
-        height: 800px;
-        background-color:#FF3366;
+      margin: 0px;
     }
 
     .main-content
     {
-        margin-left:45px;
+        margin-right:80px;
         width: auto;
-        height: 800px;
         background-color:#9966FF;
     }
 
@@ -96,6 +97,7 @@
     .footer
     {
       Background-color: green;
+      margin : 0px;
     }
 
     .link
